@@ -1,0 +1,28 @@
+User Story ID,Title,Description,Steps,URL,Test Case Name,Tags
+US1,Filter Notes View,"As a user, I want to filter notes to view my own notes so I can focus on relevant entries","1. Navigate to URL
+2. Click 'Notes'
+3. Expand combobox filter
+4. Select 'View my notes'
+5. Collapse combobox filter",http://localhost/Policy/express.aspx,test1,Notes; Filtering
+
+US2,Search and Upload Notes,"As a user, I want to search notes and access upload/download options so I can manage note attachments","1. Navigate to URL
+2. Click 'Notes'
+3. Click 'Search'
+4. Click 'Upload Download'",http://localhost/Policy/express.aspx,test2,Notes; File Management
+
+US3,Review Party Details,"As a user, I want to review party relationships and discounts so I can verify policy associations","1. Navigate to URL
+2. Open Policy menu
+3. Click 'Party'
+4. Select 'Tusar Sharma'
+5. Check Relationships tab
+6. Check Roles tab
+7. Check Group Discount tab",http://localhost/Policy/express.aspx,test3,Party; Policy Details
+
+US4,Navigate Dashboard Sections,"As a user, I want to switch between notifications and tasks so I can manage my workflow","1. Navigate to URL
+2. Open Notifications
+3. Switch to Notes
+4. Switch to Tasks",http://localhost/Policy/express.aspx,test4,Navigation; Dashboard
+
+US5,Initiate New Quote,"As a user, I want to start a new quote process so I can begin policy creation","1. Navigate to URL
+2. Click 'New Quote' button",http://localhost/Policy/express.aspx,test5,Quotes; Policy Creation
+
